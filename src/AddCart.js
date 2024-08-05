@@ -69,6 +69,8 @@ import jsPDF from 'jspdf';
 import CheckoutForm from './components/CheckoutForm';
 import './AddCart.css';
 
+
+
 const AddCart = ({ cart, setCart }) => {
   const [isCheckout, setIsCheckout] = useState(false);
   const [orderConfirmed, setOrderConfirmed] = useState(false);
