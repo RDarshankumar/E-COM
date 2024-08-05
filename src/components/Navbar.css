@@ -1,0 +1,8 @@
+.nav-link{
+  color:black;
+  border-radius: 25px;
+}
+.nav-link:hover{
+background-color: #00CC00;
+border-radius: 25px;
+}

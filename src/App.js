@@ -1,15 +1,24 @@
-
-
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Shop from './components/Shop';
-
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Shop />
-      
+   
+      <>
+      <section id='Home'>
+       
+        <Navbar />
+        </section>
+
+        <section id='Product'>
+        
+      <Shop  />
+      </section>
+        <Footer />
+      </>
+   
   );
 };
 

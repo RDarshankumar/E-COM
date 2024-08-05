@@ -3,7 +3,10 @@ import AddCart from '../AddCart';
 import '../App.css';
 
 
+
+
 const Shop = () => {
+
   
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
@@ -29,7 +32,7 @@ const Shop = () => {
   return (
 
     
-    <div className="container">
+    <div className="container" style={{marginTop: "4rem"}}>
       <h1>Product Listing</h1>
       <div className="product-grid">
         {products.map((product) => (
@@ -59,7 +62,10 @@ const Shop = () => {
       </div>
       <AddCart cart={cart} setCart={setCart} />
     </div>
+    
   );
+  
 };
+
 
 export default Shop;
